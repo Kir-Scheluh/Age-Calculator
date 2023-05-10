@@ -1,0 +1,95 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gainsboro;
+}
+footer { 
+    font-size: 11px; 
+    text-align: center; 
+}
+footer a { 
+    color: hsl(228, 45%, 44%); 
+}
+.wrapper{
+    background-color: white;
+    margin: 50px auto;   
+    padding: 25px; 
+    width: fit-content;
+    border-radius: 15px 15px 120px 15px;
+}
+#age-calculator{
+    display: flex;
+    border-bottom: 1px solid gainsboro;
+    margin: 0 auto; 
+}
+#accept-button{
+    position: relative;
+    top: 49px;
+    width: 60px;
+    height: 60px;
+    background-color: blueviolet;
+    border-radius: 50%;
+}
+.input-box{
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    font-size: 11px;
+    color: gray;
+    font-weight: bold;
+}
+#flower-left, #flower-right, #flower-center{
+    position: relative;
+    box-sizing: border-box; 
+}
+#flower-left{   
+    width: 15px;
+    height: 15px;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    border-top-right-radius: 15px 15px;
+    top: 30px;
+    left: 16px;
+    box-sizing: border-box;
+}
+#flower-right{
+    width: 15px;
+    height: 15px;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-top-left-radius: 15px 15px;
+    top: 15px;
+    left: 29px;
+    box-sizing: border-box;
+}
+#flower-center{
+    border-right: 2px solid white;
+    width: 30px;
+    height: 30px;
+    top: -15px;
+    left: 1px;
+    box-sizing: border-box;
+}
+.calc-result{
+    font-size: 80px;
+    font-weight: bold;
+    font-style: italic;
+}
+.result-number{
+    color: blueviolet;
+}
+input{
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 10%;
+    border-color: gainsboro;
+    border-style: solid;
+}
+.message-incorrect, .message-empty{
+    margin: 15px;
+    color: red;
+    font-size: 11px;
+    font-weight: bold;
+    visibility: hidden;
+}

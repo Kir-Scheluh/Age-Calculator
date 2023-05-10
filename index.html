@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+
+  <title>Frontend Mentor | Age calculator app</title>
+
+</head>
+<body>
+  <div class="wrapper">
+    <form id="age-calculator">
+      <div class="input-box">
+        <label>DAY</label>
+        <input type="number" id="day" placeholder="DD">
+      </div>
+      <div class="input-box">
+        <label>MONTH</label>
+        <input type="number" id="month" placeholder="MM">
+      </div>
+      <div class="input-box">
+        <label>YEAR</label>
+        <input type="number" id="year" placeholder="YYYY">
+      </div>
+      <div id="accept-button">
+        <div id="flower-left"></div>
+        <div id="flower-right"></div>
+        <div id="flower-center"></div>
+      </div>
+    </form>
+    <div class="message-empty">
+      <p>ВСЕ ПОЛЯ ДОЛЖНЫ БЫТЬ ЗАПОЛНЕНЫ!</p>
+    </div>
+    <div class="message-incorrect">
+      <p>ВВЕДЕНА НЕКОРРЕКТНАЯ ДАТА!</p>
+    </div>
+    <div id="result">
+      <div class="calc-result"><span class="result-number" id="result-years">--</span> years</div>
+      <div class="calc-result"><span class="result-number" id="result-months">--</span> months</div>
+      <div class="calc-result"><span class="result-number" id="result-days" >--</span> days</div>
+    </div>    
+  </div>
+  <footer>
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Kirill Schelukhin</a>.
+  </footer>
+</body>
+</html>
